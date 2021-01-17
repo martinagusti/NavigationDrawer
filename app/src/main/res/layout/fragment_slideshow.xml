@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoptf"
+    tools:context=".ui.slideshow.SlideshowFragment">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="158dp"
+        android:layout_height="226dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt1">
+
+        <RadioButton
+            android:id="@+id/radiolunes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LUNES" />
+
+        <RadioButton
+            android:id="@+id/radiomartes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MARTES" />
+
+        <RadioButton
+            android:id="@+id/radiomiercoles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MIERCOLES" />
+
+        <RadioButton
+            android:id="@+id/radiojueves"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="JUEVES" />
+
+        <RadioButton
+            android:id="@+id/radioviernes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VIERNES" />
+
+        <RadioButton
+            android:id="@+id/radiosabado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SABADO" />
+
+        <RadioButton
+            android:id="@+id/radiodomingo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DOMINGO" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/txtdia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="dia"
+        android:visibility="visible"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="123dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup3"
+        android:layout_width="158dp"
+        android:layout_height="291dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toEndOf="@+id/radioGroup"
+        app:layout_constraintTop_toBottomOf="@+id/txt">
+
+        <RadioButton
+            android:id="@+id/a930"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="15 HS" />
+
+        <RadioButton
+            android:id="@+id/a11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="16 HS" />
+
+        <RadioButton
+            android:id="@+id/a1230"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="17 HS" />
+
+        <RadioButton
+            android:id="@+id/a14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="18 HS" />
+
+        <RadioButton
+            android:id="@+id/a1530"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="19 HS" />
+
+        <RadioButton
+            android:id="@+id/a17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="20 HS" />
+
+        <RadioButton
+            android:id="@+id/a1830"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="21 HS" />
+
+        <RadioButton
+            android:id="@+id/a20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="22 HS" />
+
+        <RadioButton
+            android:id="@+id/a2130"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="23 HS" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/txthora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hora"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.897"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.032" />
+
+    <TextView
+        android:id="@+id/txtcancha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cancha"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.052" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup4"
+        android:layout_width="130dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup">
+
+        <RadioButton
+            android:id="@+id/radiocancha1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CANCHA 1" />
+
+        <RadioButton
+            android:id="@+id/radiocancha2"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:text="CANCHA 2" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnagendarfijo"
+        android:layout_width="0dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/btnradius"
+        android:text="REGISTRAR TURNO FIJO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txtconsulta"
+        android:layout_width="411dp"
+        android:layout_height="40dp"
+        android:text="consulta"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="529dp" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="12dp"
+        android:text="Dia"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_slideshow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E91E63"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="502dp" />
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Horario"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.633"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtnombre"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="96dp"
+        android:ems="10"
+        android:hint="Apellido y Nombre"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
